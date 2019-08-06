@@ -16,13 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    // ボタンを押された処理
     @IBAction func pushButton(_ sender: UIButton) {
-        let giveData = sender.tag // ボタンのタグ情報
+        let giveData = sender.tag // ボタンのタグ情報を代入
         num = giveData // giveDataはpushButton内でしか使えないのでどこでも使えるnumに代入
-        performSegue(withIdentifier: "gotoInfo", sender: nil)
+        performSegue(withIdentifier: "gotoInfo", sender: nil) // ボタンがおされると画面が遷移
     }
-    
+    // 画面遷移前の処理
    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         guard segue.identifier == "gotoInfo" ,let vc = segue.destination as? informViewController else{
             return

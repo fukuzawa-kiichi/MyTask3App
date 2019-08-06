@@ -34,44 +34,15 @@ class informViewController: UIViewController {
     let player12 = player(name: "福沢 貴一", hobby: "し")
     let player13 = player(name: "平田 奈那", hobby: "す")
     let player14 = player(name: "吉澤 優衣", hobby: "せ")
-    // 名前の定数
-    let name1: String = "永井 優"
-    let name2: String = "小野 勇輔"
-    let name3: String = "豊岡 正紘"
-    let name4: String = "分目 裕太"
-    let name5: String = "金田 祐作"
-    let name6: String = "甲斐崎 香"
-    let name7: String = "志賀 大河"
-    let name8: String = "津國 由莉子"
-    let name9: String = "中村 泰輔"
-    let name10: String = "堀田 真"
-    let name11: String = "田内 翔太郎"
-    let name12: String = "福沢 貴一"
-    let name13: String = "平田 奈那"
-    let name14: String = "吉澤 優衣"
-    
-    // 趣味の定数
-    let informed1: String = ""
-    let informed2: String = ""
-    let informed3: String = ""
-    let informed4: String = ""
-    let informed5: String = ""
-    let informed6: String = ""
-    let informed7: String = ""
-    let informed8: String = ""
-    let informed9: String = ""
-    let informed10: String = ""
-    let informed11: String = ""
-    let informed12: String = ""
-    let informed13: String = ""
-    let informed14: String = ""
-    
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // 画面に表示前の処理のためviewDidLoad()内に書く
+        // tagNumの値によって遷移先が変わる
+        // nameLabel,informLabelそれぞれに名前と趣味を表示する
         switch tagNum {
         case 0:
             nameLabel.text = player1.name
