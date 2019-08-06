@@ -9,7 +9,41 @@
 import UIKit
 
 class InformTableViewController: UITableViewController {
-
+   
+   // 名前の定数
+    let name1: String = "永井 優"
+    let name2: String = "小野 勇輔"
+    let name3: String = "豊岡 正紘"
+    let name4: String = "分目 裕太"
+    let name5: String = "金田 祐作"
+    let name6: String = "甲斐崎 香"
+    let name7: String = "志賀 大河"
+    let name8: String = "津國 由莉子"
+    let name9: String = "中村 泰輔"
+    let name10: String = "堀田 真"
+    let name11: String = "田内 翔太郎"
+    let name12: String = "福沢 貴一"
+    let name13: String = "平田 奈那"
+    let name14: String = "吉澤 優衣"
+    
+    // 趣味の定数
+    let informed1: String = ""
+    let informed2: String = ""
+    let informed3: String = ""
+    let informed4: String = ""
+    let informed5: String = ""
+    let informed6: String = ""
+    let informed7: String = ""
+    let informed8: String = ""
+    let informed9: String = ""
+    let informed10: String = ""
+    let informed11: String = ""
+    let informed12: String = ""
+    let informed13: String = ""
+    let informed14: String = ""
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,17 +54,17 @@ class InformTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    // MARK: - Table view data source
-
+    // セクション数の指定
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
-
+    /*
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+    */
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

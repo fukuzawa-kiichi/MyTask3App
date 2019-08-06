@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func pushButton(_ sender: UIButton) {
+        let giveData = sender.tag // ボタンのタグ情報
+    }
+    
 }
 
