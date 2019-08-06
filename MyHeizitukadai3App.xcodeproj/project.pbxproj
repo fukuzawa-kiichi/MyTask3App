@@ -12,6 +12,7 @@
 		C141C84A22F925310043EF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C141C84822F925310043EF27 /* Main.storyboard */; };
 		C141C84C22F925330043EF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C141C84B22F925330043EF27 /* Assets.xcassets */; };
 		C141C84F22F925330043EF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C141C84D22F925330043EF27 /* LaunchScreen.storyboard */; };
+		C141C85722F92F2B0043EF27 /* InformTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141C85622F92F2B0043EF27 /* InformTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C141C84B22F925330043EF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C141C84E22F925330043EF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C141C85022F925330043EF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C141C85622F92F2B0043EF27 /* InformTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C141C84B22F925330043EF27 /* Assets.xcassets */,
 				C141C84D22F925330043EF27 /* LaunchScreen.storyboard */,
 				C141C85022F925330043EF27 /* Info.plist */,
+				C141C85622F92F2B0043EF27 /* InformTableViewController.swift */,
 			);
 			path = MyHeizitukadai3App;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C141C85722F92F2B0043EF27 /* InformTableViewController.swift in Sources */,
 				C141C84722F925310043EF27 /* ViewController.swift in Sources */,
 				C141C84522F925310043EF27 /* AppDelegate.swift in Sources */,
 			);
