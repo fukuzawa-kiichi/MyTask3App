@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InformTableViewController: UITableViewController {
+class informViewController: UIViewController {
    
    // 名前の定数
     let name1: String = "永井 優"
@@ -54,11 +54,12 @@ class InformTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    // セクション数の指定
+    /*
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+ */
     /*
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
