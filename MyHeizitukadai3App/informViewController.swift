@@ -51,12 +51,6 @@ class informViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // numLabelをいじれせないようにする
-        nameLabel.isUserInteractionEnabled = false
-        // informLabelをいじれせないようにする
-        informLabel.isUserInteractionEnabled = false
-        
-        
         // 画面に表示前の処理のためviewDidLoad()内に書く
         // tagNumの値によって遷移先が変わる
         // nameLabel,informLabelそれぞれに名前と趣味を表示する
